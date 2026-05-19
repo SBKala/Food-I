@@ -38,10 +38,15 @@ Türk yemeklerini tanıyan bir Android uygulaması. Kamera ile çekilen yemek fo
 ### Proje Yapısı
 
 ```
-├── android/          # Android Studio projesi (model.tflite dahil)
+├── android/
+│   ├── app/
+│   │   ├── src/main/java/com/scala/myapplication1/
+│   │   │   └── MainActivity.java      # Kamera, sınıflandırma, UI
+│   │   └── src/main/ml/
+│   │       └── model.tflite           # Eğitilmiş TFLite modeli
 ├── model/
-│   ├── food_classifier.ipynb   # Eğitim notebook'u (Colab)
-│   └── food_classifier.py      # Eğitim kodu (Python)
+│   ├── food_classifier.ipynb          # Eğitim notebook'u (Colab)
+│   └── food_classifier.py             # Eğitim kodu (Python)
 └── README.md
 ```
 
@@ -93,10 +98,15 @@ An Android application that recognizes Turkish dishes. It analyzes food photos t
 ### Project Structure
 
 ```
-├── android/          # Android Studio project (includes model.tflite)
+├── android/
+│   ├── app/
+│   │   ├── src/main/java/com/scala/myapplication1/
+│   │   │   └── MainActivity.java      # Camera, classification, UI
+│   │   └── src/main/ml/
+│   │       └── model.tflite           # Trained TFLite model
 ├── model/
-│   ├── food_classifier.ipynb   # Training notebook (Colab)
-│   └── food_classifier.py      # Training script (Python)
+│   ├── food_classifier.ipynb          # Training notebook (Colab)
+│   └── food_classifier.py             # Training script (Python)
 └── README.md
 ```
 
