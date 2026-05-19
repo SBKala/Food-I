@@ -1,6 +1,6 @@
 # Food-I 🍽️
 
-**TR** | [EN](#en)
+[TR](#tr) | [EN](#en)
 
 ---
 
