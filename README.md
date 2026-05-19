@@ -40,7 +40,7 @@ Türk yemeklerini tanıyan bir Android uygulaması. Kamera ile çekilen yemek fo
 ```
 ├── android/
 │   ├── app/
-│   │   ├── src/main/java/com/scala/myapplication1/
+│   │   ├── src/main/java/com/scala/food-i/
 │   │   │   └── MainActivity.java      # Kamera, sınıflandırma, UI
 │   │   └── src/main/ml/
 │   │       └── model.tflite           # Eğitilmiş TFLite modeli
@@ -100,7 +100,7 @@ An Android application that recognizes Turkish dishes. It analyzes food photos t
 ```
 ├── android/
 │   ├── app/
-│   │   ├── src/main/java/com/scala/myapplication1/
+│   │   ├── src/main/java/com/scala/food-i/
 │   │   │   └── MainActivity.java      # Camera, classification, UI
 │   │   └── src/main/ml/
 │   │       └── model.tflite           # Trained TFLite model

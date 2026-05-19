@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.scala.myapplication1'
+    namespace 'com.scala.food-i'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.scala.myapplication1"
+        applicationId "com.scala.food-i"
         minSdk 29
         targetSdk 34
         versionCode 1
