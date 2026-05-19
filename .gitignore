@@ -1,0 +1,14 @@
+# Android Studio
+**/.idea/
+**/build/
+**/.gradle/
+**/*.iml
+**/local.properties
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
